@@ -55,3 +55,31 @@ Portfolio
 .zoom:hover{
     transform: scale(1.5);
 }
+
+/*Perfil*/
+
+.card{
+    height: 500 px;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.perfil{
+border-radius: 80%;
+width: 100%;
+}
+.texto{
+margin: 5%;
+text-align: justify;
+}
+.titulo{
+text-align: center;
+}
+.container{
+display: flex;
+}
+
+.perfil{
+display: flex;
+}
