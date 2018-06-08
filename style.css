@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    height: 70px;
+    }
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+    list-style: none;  
+    display: flex;  
+    margin-top: 0;
+
+}
+li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 0%;
+}
+
+#logo{
+    margin-left: 0;
+    margin-right: 750px;
+}
+
+/* 
+Portfolio 
+*/
+#portfolio{
+    max-width: 1330px;
+    margin: 10px 10px 10px;
+
+}
+
+
+.zoom{
+    border: solid 3px whitesmoke;
+
+    transition: transform .2s;
+    margin: 5px;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
