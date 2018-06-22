@@ -83,8 +83,12 @@ Portfolio
 
 }
 .perfil{
-border-radius: 80%;
-width: 100%;
+    display: flex;
+}
+
+.perfil img{
+    border-radius: 80%;
+    width: 100%;
 }
 
 .perfil > div{
@@ -93,16 +97,12 @@ width: 100%;
 }
 
 .texto{
-margin: 5%;
-text-align: justify;
+    margin: 5%;
+    text-align: justify;
 }
 .titulo{
-text-align: center;
+    text-align: center;
 }
 .container{
-display: flex;
-}
-
-.perfil{
-display: flex;
+    display: flex;
 }
