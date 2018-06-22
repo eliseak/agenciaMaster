@@ -51,13 +51,13 @@ section{
 }
 
 /* 
-Portfolio 
+Portifolio 
 */
-#portfolio{
+#portifolio{
     max-width: 1330px;
 }
 
-#portfolio > div{
+#portifolio > div{
     display: inherit;
     justify-content: center;
 }
